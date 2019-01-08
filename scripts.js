@@ -28,4 +28,16 @@ function countBs(string) {
     return num;
 }
 let num = countBs("HeBllbo WBorlBd");
-console.log(num);
+console.log(num + " letter B's");
+
+function countChar(string, char) {
+    let num = 0;
+    for(let i = 0; i < string.length; i++) {
+        if(string[i] == char) {
+            num += 1;
+        }
+    }
+    return num;
+}
+num = countChar("HeBllbo WBorlBd", 'l');
+console.log(num + " letter l's");
