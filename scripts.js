@@ -19,13 +19,14 @@ function fizzBuzz() {
 }
 fizzBuzz();
 function countBs(string) {
-    let num = 0;
+    /*let num = 0;
     for(let i = 0; i < string.length; i++) {
         if(string[i] == "B") {
             num += 1;
         }
     }
-    return num;
+    return num;*/
+    return countChar(string, "B");
 }
 let num = countBs("HeBllbo WBorlBd");
 console.log(num + " letter B's");
